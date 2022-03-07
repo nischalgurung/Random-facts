@@ -50,3 +50,16 @@ body {
 .btn:focus {
   outline: none;
 }
+
+@media (max-width: 480px) {
+  .container {
+    max-width: 90%;
+    font-size: 1rem;
+  }
+  .fact {
+    font-size: 1.2rem;
+  }
+  .btn {
+    padding: 0.3rem 0.5rem;
+  }
+}
